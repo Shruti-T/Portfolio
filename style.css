@@ -1,0 +1,39 @@
+.parallax {
+  /* The image used */
+  background-image: url("./images/bg.jpg");
+  /* opacity: 0.8; */
+  /* background-color: rgba(0, 0, 0, 0.1); */
+
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-text {
+  font-family: "mate sc";
+  color: black;
+  font-size: large;
+  font-weight: 400;
+}
+
+.nav-button {
+  /* background-color: blue; */
+  border-radius: 50%;
+}
+
+.home-row {
+  padding: 20px;
+  color: white;
+  align-content: center;
+}
+
+.home-col {
+  min-width: 200px;
+  padding-top: 40px;
+  /* background-color: brown; */
+  text-align: center;
+}
