@@ -12,10 +12,9 @@
       crossorigin="anonymous"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="style.css" />
 
     <title>PortFolio</title>
@@ -52,24 +51,66 @@
 
     <div class="parallax">
       <div class="container">
-        <div class="row home-row">
-          <div class="col home-col">
+        <div class="row pt-5 mx-2 justify-content-md-center">
+          <div class="col home-col home-l-col">
+            <div class="my-3">
             <img
               src="images/myPic.jpeg"
               class="img-fluid"
               alt="Responsive image"
-            />
+            /></div>
           </div>
-          <div class="col home-col">
-            2 of 2kgfi cuwrwhnfb iuwfgv kjew fjcjnpub ug kjoyfgwjw
+          <div class="col home-col home-r-col">
+            <div class="mt-5">
+              <h3 class="home-title">Shruti Tiwari</h3>
+              <p class="home-text">
+                  -Web Developer Enthusiast
+                  <p>
+                  Hello! I'm Shruti and i am currently pursuing my Btech. I have
+                  been assimilating web developing skills and here you'll find some
+                  of my projects:)</p>
+                <span>In my spare time, I enjoy reading and painting. I
+                  enjoy building upon my knowledge of various computer programs and
+                  to develop coding skills.</span> 
+              </p>
+            </div>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-12 home-links">
+            <div class="m-1 text-center">
+              <i class='bx bxl-github bx-md social-net'></i>
+              <i class='bx bxl-linkedin-square bx-md social-net' ></i>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div style="height: 1000px; background-color: white; font-size: 36px">
-      Scroll Up and Down this page to see the parallax scrolling effect. This
-      div is just here to enable scrolling. Tip: Try to remove the
-      background-attachment property to remove the scrolling effect.
+
+    <div class="education">
+      <div class="edu-section-title p-4">
+        <h4 class="p-3">EXPERIENCE & EDUCATION</h4>
+        <hr>
+      </div>
+      <div class="timeline mx-auto">
+        <div class="content-container container left px-5">
+          <div class="content py-2">
+            <h5 class="edu-time">2019-2024<p>Btech</p></h5>
+            <p class="edu-text">Currently pursuing my Btech at SIESGST</p>
+          </div>
+        </div>
+        <div class="content-container container right px-5">
+          <div class="content py-2">
+            <h5 class="edu-time">2021-Present<p>Technical Head</p></h5>
+            <p class="edu-text">Working as a Technical Head at IEEE SIESGST.</p>
+          </div>
+        </div>
+        <div class="content-container container left px-5">
+          <div class="content py-2">
+            <h5 class="edu-time">2020-2021<p>Volunteer</p></h5>
+            <p class="edu-text">Been a Technical Volunteer at IEEE SIESGST for an event known as Techopedia 9.0</p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script

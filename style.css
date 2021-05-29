@@ -1,39 +1,145 @@
 .parallax {
-  /* The image used */
   background-image: url("./images/bg.jpg");
   /* opacity: 0.8; */
   /* background-color: rgba(0, 0, 0, 0.1); */
-
-  /* Set a specific height */
   min-height: 500px;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/*--------------Navbar-----------*/
 .nav-text {
   font-family: "mate sc";
   color: black;
   font-size: large;
   font-weight: 400;
 }
-
 .nav-button {
-  /* background-color: blue; */
   border-radius: 50%;
 }
-
-.home-row {
-  padding: 20px;
-  color: white;
-  align-content: center;
-}
-
+/*----------Home----------*/
 .home-col {
   min-width: 200px;
-  padding-top: 40px;
-  /* background-color: brown; */
+  max-width: 500px;
+}
+.home-l-col {
+  background-color: rgba(241, 241, 241);
+}
+.home-r-col {
+  background-color: rgba(241, 241, 241);
+  color: black;
+}
+.home-title {
+  font-family: "mate sc";
+  font-size: 30px;
+  font-weight: 400;
+}
+.home-text {
+  font-family: "Open Sans";
+}
+.home-links {
+  max-width: 1000px;
+  background-color: #122959;
+  /* min-height: 50px; */
+  color: white;
+}
+.social-net:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+/*---------Education----------*/
+
+.education {
+  background-color: white;
+}
+.edu-section-title {
   text-align: center;
+  font-family: "mate sc";
+  font-weight: 500;
+  color: #122959;
+}
+.edu-time {
+  font-family: "mate sc";
+  font-weight: 300;
+  color: black;
+}
+.edu-text {
+  font-family: "Open sans";
+  color: black;
+}
+/*the vertical ruler*/
+.timeline {
+  position: relative;
+  max-width: 800px;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: #122959;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+/* Container around content */
+.content-container {
+  position: relative;
+  width: 50%;
+}
+/* The circles on the timeline */
+.content-container::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: #2158af;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  justify-content: center;
+}
+/* Place the container to the left*/
+.left {
+  left: -25%;
+}
+/* Place the container to the right */
+.right {
+  left: 25%;
+}
+/* Fix the circle for containers*/
+.left::after {
+  right: -4px;
+}
+.right::after {
+  left: -3px;
+}
+/* The actual content */
+.content {
+  position: relative;
+}
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 18px;
+  }
+  /* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 25px;
+  }
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
+    left: 15px;
+  }
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+  .left {
+    left: 0%;
+  }
 }
