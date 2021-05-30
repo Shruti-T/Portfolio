@@ -143,3 +143,33 @@
     left: 0%;
   }
 }
+
+/* Skill */
+.parallax2 {
+  background-image: url("./images/skillPic.png");
+  /* opacity: 0.8; */
+  /* background-color: black; */
+  min-height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skill-section-title {
+  text-align: center;
+  font-family: "mate sc";
+  font-weight: 500;
+  color: white;
+  background-color: #122959;
+}
+
+.skill-name {
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  font-family: "open sans";
+  color: white;
+  font-size: large;
+}
