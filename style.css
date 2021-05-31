@@ -44,6 +44,9 @@
   /* min-height: 50px; */
   color: white;
 }
+.social-net {
+  color: white;
+}
 .social-net:hover {
   color: #93cef1;
   cursor: pointer;
