@@ -1,17 +1,19 @@
-const clc = document.querySelector(".cancel");
-const arr = document.querySelector(".arr_container");
-const left_container = document.querySelector(".left_container");
+for (let i = 1; i < 7; i++) {
+  const clc = document.querySelector(".c" + i);
+  const arr = document.querySelector(".a" + i);
+  const left_container = document.querySelector(".l" + i);
 
-arr.addEventListener("click", () => {
-  classToggle();
-});
+  function classToggle() {
+    arr.classList.toggle("active_arr");
+    left_container.classList.toggle("active");
+    left_container.classList.toggle("off");
+  }
 
-clc.addEventListener("click", () => {
-  classToggle();
-});
+  arr.addEventListener("click", () => {
+    classToggle();
+  });
 
-function classToggle() {
-  arr.classList.toggle("active_arr");
-  left_container.classList.toggle("active");
-  left_container.classList.toggle("off");
+  clc.addEventListener("click", () => {
+    classToggle();
+  });
 }
