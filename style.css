@@ -45,7 +45,7 @@
   color: white;
 }
 .social-net:hover {
-  color: aqua;
+  color: #93cef1;
   cursor: pointer;
 }
 
@@ -249,4 +249,21 @@
 }
 .active {
   transform: translate(0) rotate(0);
+}
+/* footer */
+.footer-style {
+  background-color: #122959;
+  color: white;
+}
+.footer-line {
+  background-color: white;
+  height: 0.001rem;
+}
+.footer-name {
+  font-family: "mate sc";
+  font-size: larger;
+}
+.footer-text {
+  font-family: "open sans";
+  font-size: medium;
 }
