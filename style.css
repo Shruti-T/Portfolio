@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .parallax {
   background-image: url("./images/bg.jpg");
   /* opacity: 0.8; */
