@@ -20,7 +20,6 @@ html {
 }
 .nav-text:hover {
   text-decoration: underline;
-  transition: ease;
 }
 .nav-button {
   border-radius: 50%;
