@@ -1,4 +1,4 @@
-for (let i = 1; i < 7; i++) {
+for (let i = 1; i < 10; i++) {
   const clc = document.querySelector(".c" + i);
   const arr = document.querySelector(".a" + i);
   const left_container = document.querySelector(".l" + i);
