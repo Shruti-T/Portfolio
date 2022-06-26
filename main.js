@@ -25,7 +25,7 @@ for (let i = 1; i < 10; i++) {
 //     // console.log(entry.isIntersecting);
 //     if (entry.isIntersecting) {
 //       // Add the animation class
-//       entry.target.classList.add("animate__slideInLeft");
+//       entry.target.classList.add("animate__slideInLeft");`
 //     }
 //   });
 // });
